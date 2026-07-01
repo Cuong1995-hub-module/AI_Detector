@@ -15,11 +15,11 @@ from loss import PlateLoss
 # CONFIG
 # ============================================================
 
-TRAIN_IMAGE_DIR = "/media/cuong/PROJECTS/Dataset_Single/images/train"
-TRAIN_LABEL_DIR = "/media/cuong/PROJECTS/Dataset_Single/labels/train"
+TRAIN_IMAGE_DIR = "/content/Dataset_Single/images/train"
+TRAIN_LABEL_DIR = "/content/Dataset_Single/labels/train"
 
-VAL_IMAGE_DIR = "/media/cuong/PROJECTS/Dataset_Single/images/val"
-VAL_LABEL_DIR = "/media/cuong/PROJECTS/Dataset_Single/labels/val"
+VAL_IMAGE_DIR = "/content/Dataset_Single/images/val"
+VAL_LABEL_DIR = "/content/Dataset_Single/labels/val"
 
 IMAGE_SIZE = 640
 BATCH_SIZE = 16
