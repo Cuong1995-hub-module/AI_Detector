@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+Dataset/
+Dataset_Single/
+Dataset_Quad/
+
+checkpoints/
+
+*.pth
+*.pt
+
+.vscode/
+.idea/
