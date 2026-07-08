@@ -26,7 +26,7 @@ class PlateLoss(nn.Module):
 
         self.cls_loss_fn = nn.CrossEntropyLoss()
 
-        self.polygon_loss_fn = nn.MSELoss()
+        self.polygon_loss_fn = nn.SmoothL1Loss()
 
     # ---------------------------------------------------------
 
